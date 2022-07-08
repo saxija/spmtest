@@ -20,14 +20,10 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "SPMTestPackage",
-            dependencies: ["InSpmFw"]),
+            dependencies: []),
         .binaryTarget(
                     name: "InSpmFw",
                     path: "InSpmFw.xcframework"
-                ),
-        
-        .testTarget(
-            name: "SPMTestPackageTests",
-            dependencies: ["SPMTestPackage"]),
+                )
     ]
 )
