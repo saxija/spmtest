@@ -21,6 +21,11 @@ let package = Package(
         .target(
             name: "SPMTestPackage",
             dependencies: []),
+        .binaryTarget(
+                    name: "InSpmFw",
+                    path: "InSpmFw.xcframework"
+                ),
+        
         .testTarget(
             name: "SPMTestPackageTests",
             dependencies: ["SPMTestPackage"]),
