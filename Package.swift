@@ -20,7 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "SPMTestPackage",
-            dependencies: []),
+            dependencies: ["InSpmFw"]),
         .binaryTarget(
                     name: "InSpmFw",
                     path: "Users/sasa/Documents/workspace/mobile/spmtest/InSpmFw.xcframework"

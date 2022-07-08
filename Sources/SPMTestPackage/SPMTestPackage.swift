@@ -1,5 +1,4 @@
 
-
 public struct SPMTestPackage {
     public private(set) var text = "Hello, World!"
 
@@ -8,6 +7,5 @@ public struct SPMTestPackage {
     
     public func testPrint() {
         print("ALooo pa ovo kao radiiiii")
-
     }
 }
