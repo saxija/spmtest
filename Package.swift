@@ -23,7 +23,7 @@ let package = Package(
             dependencies: []),
         .binaryTarget(
                     name: "InSpmFw",
-                    path: "InSpmFw.xcframework"
+                    path: "Users/sasa/Documents/workspace/mobile/spmtest/InSpmFw.xcframework"
                 ),
         
         .testTarget(
